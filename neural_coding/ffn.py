@@ -218,7 +218,7 @@ def main():
     parser = argparse.ArgumentParser(description="Collect neural activations from LLM")
     parser.add_argument("--model_path", type=str, required=True,
                        help="Path to the model")
-    parser.add_argument("--output_dir", type=str, default="./neural_activations",
+    parser.add_argument("--output_dir", type=str, required=True,
                        help="Output directory for activation data")
     parser.add_argument("--start_year", type=int, default=1525,
                        help="Start year for analysis")

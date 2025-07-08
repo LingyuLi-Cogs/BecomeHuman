@@ -10,3 +10,4 @@ pytorch
 transformers
 contextlib
 h5py
+Levenshtein
